@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b81dae1d46879b444aa9847f7961649f, type: 3}
+  m_Name: CustomMixedRealitySceneSystemProfile
+  m_EditorClassIdentifier: 
+  isCustomProfile: 1
+  useManagerScene: 1
+  managerScene:
+    Name: SceneManager
+    Path: Assets/Scenes/SceneManager.unity
+    Included: 0
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 50e07b12d34491349b3723f2b38af82a, type: 3}
+  useLightingScene: 0
+  defaultLightingSceneIndex: 0
+  lightingScenes:
+  - Name: LightProvider
+    Path: Assets/Scenes/LightProvider.unity
+    Included: 0
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 5dafbce0bc6211047afccbe9fe30da96, type: 3}
+  contentScenes:
+  - Name: Basketball
+    Path: Assets/Scenes/Basketball.unity
+    Included: 0
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 327024fc014461545ad1313318a9fae0, type: 3}
+  - Name: MainMenu
+    Path: Assets/Scenes/MainMenu.unity
+    Included: 0
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: d77e0a3459624b54f9b72243c136057c, type: 3}
+  - Name: Drawing
+    Path: Assets/Scenes/Drawing.unity
+    Included: 0
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: f7c175de6f315504aaaccb170819a425, type: 3}
+  - Name: Weather
+    Path: Assets/Scenes/Weather.unity
+    Included: 0
+    BuildIndex: -1
+    Tag: Untagged
+    Asset: {fileID: 102900000, guid: 26545eadc3700954b8be9e615afa64ba, type: 3}
+  permittedLightingSceneComponentTypes:
+  - reference: UnityEngine.Transform, UnityEngine.CoreModule
+  - reference: UnityEngine.GameObject, UnityEngine.CoreModule
+  - reference: UnityEngine.Light, UnityEngine.CoreModule
+  - reference: UnityEngine.ReflectionProbe, UnityEngine.CoreModule
+  - reference: UnityEngine.LightProbeGroup, UnityEngine.CoreModule
+  - reference: UnityEngine.LightProbeProxyVolume, UnityEngine.CoreModule
+  contentTags: []
+  cachedLightingSettings:
+  - SceneName: LightProvider
+    RenderSettings:
+      Fog: 0
+      FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+      FogMode: 2
+      FogDensity: 0.01
+      LinearFogStart: 0
+      LinearFogEnd: 300
+      AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+      AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+      AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+      AmbientLight: {r: 0, g: 0, b: 0, a: 0}
+      AmbientIntensity: 1
+      AmbientMode: 0
+      SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+      SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+      DefaultReflectionMode: 0
+      DefaultReflectionResolution: 128
+      ReflectionBounces: 1
+      ReflectionIntensity: 1
+      CustomReflection: {fileID: 0}
+      UseRadianceAmbientProbe: 0
+    LightingSettings:
+      BounceScale: 1
+      IndirectOutputScale: 1
+      AlbedoBoost: 1
+      EnvironmentLightingMode: 0
+      EnableBakedLightmaps: 1
+      EnabledRealtimeLightmaps: 0
+    SunlightSettings:
+      UseSunlight: 0
+      Color: {r: 0, g: 0, b: 0, a: 0}
+      Intensity: 0
+      XRotation: 0
+      YRotation: 0
+      ZRotation: 0
+  editorManageBuildSettings: 1
+  editorEnforceSceneOrder: 1
+  editorManageLoadedScenes: 0
+  editorEnforceLightingSceneTypes: 0
+  editorLightingCacheOutOfDate: 0
